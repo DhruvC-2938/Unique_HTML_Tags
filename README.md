@@ -1,4 +1,4 @@
-<keygen> Tag — Explanation Document
+<keygen> tag — Explanation Document
 1. What the <keygen> tag does
 
 The <keygen> tag generates a public–private key pair inside the user’s browser when a form is submitted.
