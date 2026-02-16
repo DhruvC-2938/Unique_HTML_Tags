@@ -1,6 +1,5 @@
 <keygen> HTML Tag
-Overview
-
+1. Overview
 The <keygen> tag was an HTML form element used to generate a public–private key pair directly in the user's browser during form submission. It was primarily designed for secure authentication and certificate-based systems.
 
 ⚠️ Status: Deprecated and no longer supported in modern browsers.
@@ -15,17 +14,11 @@ Sends the public key to the server as form data
 
 Works only inside an HTML <form>
 
-<form method="post" action="/register">
-  <input type="text" name="username">
-  <keygen name="userkey">
-  <button type="submit">Register</button>
-</form>
-
-Why the <keygen> Tag Existed
+2. Why the <keygen> Tag Existed
 
 The tag was introduced to make client-side cryptography accessible without JavaScript or third-party libraries.
 
-Its goals included:
+3. Its goals included:
 
 Simplifying secure authentication
 
@@ -43,7 +36,7 @@ Banking and government web portals
 
 Mutual TLS (two-way SSL) systems
 
-Deprecation Notice
+4. Deprecation Notice
 
 The <keygen> tag has been removed from the HTML specification due to:
 
