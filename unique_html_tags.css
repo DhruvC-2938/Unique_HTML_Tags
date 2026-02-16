@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: #ffffff;
+    width: 360px;
+    padding: 28px 26px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 22px;
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #34495e;
+}
+
+
+input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+
+keygen {
+    margin-top: 6px;
+    padding: 6px;
+}
+
+
+button {
+    margin-top: 22px;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background: #3498db;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #2980b9;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
